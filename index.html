@@ -1,0 +1,27 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function mifuncion2() {
+            var nombre= document.getElementById("nombre").value;
+            var apellido= document.getElementById("apellido").value;
+            alert("Bienvenido "+nombre+" "+apellido);
+        }
+      
+    </script>
+</head>
+
+<body>
+    <form method="post" enctype="text">
+        <h1 class="title"> Practica bloque 3</h1>
+        <p>
+            Introduce nombre <input id="nombre" type="text" value=""> 
+            Introduce apellido1 <input id="apellido" type="text" value="" onchange="mifuncion2()"> 
+        </p>
+    </form>
+
+</body>
+</html>
